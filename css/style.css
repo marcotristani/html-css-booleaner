@@ -1,7 +1,9 @@
 
 .header {
     display: block;
+    width: 100%;
     background: url(./pattern.png);
+    background-size: contain;
     background-color: skyblue;
     padding-top: 100px;
     margin: 0;
@@ -10,4 +12,24 @@
     display: block;
     width: 35%;
     height: auto;
+}
+
+.titolo{
+    font-family: "Playfair Display", serif;
+    line-height: 0;
+    
+}
+
+.titolo > h1{
+    font-weight: bold;
+    white-space: normal;
+} 
+.sottotitolo{
+    color: grey;
+}
+#blu{
+    color: blue
+}
+.piccolo {
+    font-size:small ;
 }
