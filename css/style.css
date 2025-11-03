@@ -46,7 +46,7 @@ word-break: break-all;
 ul{
     padding-left: 10px;
 }
-#yellow {
+.yellow {
     background-color: yellow;
 }
 table{
