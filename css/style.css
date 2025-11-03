@@ -1,4 +1,6 @@
 
+body{text-align: left;
+word-break: break-all;}
 .header {
     display: block;
     width: 100%;
@@ -32,4 +34,19 @@
 }
 .piccolo {
     font-size:small ;
+}
+.immagini{
+    display: flex;
+}
+.immagini > img{
+    margin-right: 7px;
+}
+.descrizione-immagini{
+    margin: 0;
+}
+ul{
+    padding-left: 10px;
+}
+#yellow {
+    background-color: yellow;
 }
