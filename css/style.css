@@ -1,0 +1,13 @@
+
+.header {
+    display: block;
+    background: url(./pattern.png);
+    background-color: skyblue;
+    padding-top: 100px;
+    margin: 0;
+}
+.logo{
+    display: block;
+    width: 35%;
+    height: auto;
+}
