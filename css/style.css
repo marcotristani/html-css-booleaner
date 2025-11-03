@@ -1,6 +1,7 @@
 
 body{text-align: left;
-word-break: break-all;}
+word-break: break-all;
+ font-family: "Playfair Display", serif;}
 .header {
     display: block;
     width: 100%;
@@ -17,14 +18,12 @@ word-break: break-all;}
 }
 
 .titolo{
-    font-family: "Playfair Display", serif;
     line-height: 0;
     
 }
 
 .titolo > h1{
     font-weight: bold;
-    white-space: normal;
 } 
 .sottotitolo{
     color: grey;
@@ -49,4 +48,20 @@ ul{
 }
 #yellow {
     background-color: yellow;
+}
+table{
+    border-collapse: collapse;
+}
+table .colorato{
+    background-color: skyblue;
+}
+table > thead{
+    background-color: blueviolet;
+    color: white;
+}
+table .quarto{
+    width: 25%;
+}
+table .meta{
+    width: 50%;
 }
