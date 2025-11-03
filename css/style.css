@@ -65,3 +65,37 @@ table .quarto{
 table .meta{
     width: 50%;
 }
+.immagine-grafico {
+    margin: 0;
+    display: block;
+    background-image: url(./graph.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+   }
+
+.immagine-grafico > p{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
+.immagine-monitor {
+    display: block;
+    background-image: url(./monitor.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+   }
+
+.immagine-monitor > p{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
+footer > h3 {
+    color: grey;
+}
