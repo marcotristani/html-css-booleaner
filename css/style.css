@@ -5,7 +5,7 @@ word-break: break-all;
 .header {
     display: block;
     width: 100%;
-    background: url(./pattern.png);
+    background: url(../img/pattern.png);
     background-size: contain;
     background-color: skyblue;
     padding-top: 100px;
@@ -16,22 +16,25 @@ word-break: break-all;
     width: 35%;
     height: auto;
 }
-
-.titolo{
-    line-height: 0;
-    
-}
-
-.titolo > h1{
-    font-weight: bold;
-} 
-.sottotitolo{
+.testo-grigio{
     color: grey;
 }
+.testo-nero{
+    color: black;
+}
+.info-articolo{
+    line-height: 0;
+}
+.titolo-articolo{
+    font-weight: bold;
+    line-height: 1;
+    bottom: 0;
+
+} 
 #blu{
     color: blue
 }
-.piccolo {
+.data {
     font-size:small ;
 }
 .immagini{
@@ -42,9 +45,6 @@ word-break: break-all;
 }
 .descrizione-immagini{
     margin: 0;
-}
-ul{
-    padding-left: 10px;
 }
 .yellow {
     background-color: yellow;
@@ -59,43 +59,35 @@ table > thead{
     background-color: blueviolet;
     color: white;
 }
-table .quarto{
+table .prima-colonna .seconda-colonna {
     width: 25%;
 }
-table .meta{
+table .terza-colonna{
     width: 50%;
 }
 .immagine-grafico {
-    margin: 0;
     display: block;
-    background-image: url(./graph.jpg);
+    background-image: url(../img/graph.jpg);
     background-size:contain;
     background-repeat: no-repeat;
     padding-bottom: 100px;
    }
 
 .immagine-grafico > p{
-    display: flex;
     color: white;
     font-weight: bold;
-    text-align: center;
-
 }
 .immagine-monitor {
     display: block;
-    background-image: url(./monitor.jpg);
+    background-image: url(../img/monitor.jpg);
     background-size:contain;
     background-repeat: no-repeat;
-    padding-bottom: 100px;
+    height: 200px;
+    width: 200px;
    }
 
 .immagine-monitor > p{
-    display: flex;
     color: white;
     font-weight: bold;
     text-align: center;
-
-}
-footer > h3 {
-    color: grey;
 }
